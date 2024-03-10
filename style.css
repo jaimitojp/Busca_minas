@@ -1,0 +1,50 @@
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 180px;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+.newgame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 0px 0px;
+}
+button{
+    height: 30px;
+    width: 200px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 19px;
+    background-color:lightgray;
+}
+
+.revealed {
+    background-color: #fff;
+}
+
+.mine {
+    background-color: red;
+    color: white;
+}
+
+.juego{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
